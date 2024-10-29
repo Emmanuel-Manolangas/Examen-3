@@ -1,4 +1,5 @@
 /**CÓDIGO DE FACTORIAL Y CAJERO DE BANCO**/
+/**Documentación de código que permite calcular el factorial de un número, así como consultar saldo y retirar efectivo de un cajero de banco**/
 /**Emmanuel Rodríguez Franco (215822)**/
 #include <iostream>
 

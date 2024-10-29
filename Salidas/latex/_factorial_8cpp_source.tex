@@ -1,0 +1,84 @@
+\doxysection{C\+:/\+Users/erf53/\+One\+Drive/\+Escritorio/\+Examen-\/3/\+Factorial.cpp}
+\hypertarget{_factorial_8cpp_source}{}\label{_factorial_8cpp_source}\mbox{\hyperlink{_factorial_8cpp}{Ir a la documentación de este archivo.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00001}00001\ }
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00003}00003\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00004}00004\ }
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00005}00005\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00006}00006\ }
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00010}\mbox{\hyperlink{_factorial_8cpp_a0f757aeff74c4ba2fa53b0a07f9f1341}{00010}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{_factorial_8cpp_a0f757aeff74c4ba2fa53b0a07f9f1341}{factorial}}()}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00011}00011\ \{}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00012}00012\ \ \ \ \ \textcolor{keywordtype}{long}\ \textcolor{keywordtype}{double}\ f;}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00013}00013\ \ \ \ \ \textcolor{keywordtype}{int}\ i,\ p,\ d1;}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00014}00014\ \ \ \ \ \textcolor{keywordflow}{do}}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00015}00015\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00016}00016\ \ \ \ \ \ \ \ \ cout<<\textcolor{stringliteral}{"{}CODIGO\ DE\ FACTORIAL\(\backslash\)n\(\backslash\)nIntroduce\ un\ numero:\ "{}};\ \ \ }
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00017}00017\ \ \ \ \ \ \ \ \ cin>>p;}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00018}00018\ \ \ \ \ \ \ \ \ f=1;}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00019}00019\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}(i=1;i<=p;i++)}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00020}00020\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00021}00021\ \ \ \ \ \ \ \ \ \ \ \ \ f=f*i;\ \ }
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00022}00022\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00023}00023\ \ \ \ \ \ \ \ \ cout<<endl<<\textcolor{stringliteral}{"{}Numero:\ "{}}<<p<<endl<<\textcolor{stringliteral}{"{}Factorial\ de\ "{}}<<p<<\textcolor{stringliteral}{"{}\ -\/>\ "{}}<<f<<endl;}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00024}00024\ \ \ \ \ \ \ \ \ cout<<endl<<\textcolor{stringliteral}{"{}Desea\ realizar\ algo\ mas?\ SI[1]/NO[2]:\ "{}};}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00025}00025\ \ \ \ \ \ \ \ \ cin>>d1;}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00026}00026\ \ \ \ \ \ \ \ \ system(\textcolor{stringliteral}{"{}cls"{}});\ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00027}00027\ \ \ \ \ \}\textcolor{keywordflow}{while}(d1==1);}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00028}00028\ \}}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00029}00029\ }
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00034}\mbox{\hyperlink{_factorial_8cpp_a7fefbb4991338e3d6c489618d4a1147e}{00034}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{_factorial_8cpp_a7fefbb4991338e3d6c489618d4a1147e}{banco}}(\textcolor{keywordtype}{int}\ ba)}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00035}00035\ \{}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00036}00036\ \ \ \ \ \textcolor{keywordtype}{int}\ q,\ r,\ d;}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00037}00037\ \ \ \ \ \textcolor{keywordflow}{do}}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00038}00038\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00039}00039\ \ \ \ \ \ \ \ \ system(\textcolor{stringliteral}{"{}cls"{}});}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00040}00040\ \ \ \ \ \ \ \ \ cout<<\textcolor{stringliteral}{"{}CAJERO\ DE\ BANCO\(\backslash\)n\(\backslash\)nHola\ que\ tal,\ que\ desea\ realizar\ el\ dia\ de\ hoy?:\ \(\backslash\)n\(\backslash\)nConsultar\ saldo[1]\(\backslash\)nRetirar\ efectivo[2]\(\backslash\)n\(\backslash\)nIngresa\ el\ numero\ correspondiente\ de\ la\ funcion\ que\ desees:\ "{}};}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00041}00041\ \ \ \ \ \ \ \ \ cin>>q;}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00042}00042\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{switch}(q)}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00043}00043\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00044}00044\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{case}\ 1:}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00045}00045\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ cout<<endl<<\textcolor{stringliteral}{"{}Tu\ saldo\ actual\ es\ de\ "{}}<<ba<<\textcolor{stringliteral}{"{}\ pesos.\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00046}00046\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{break};}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00047}00047\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{case}\ 2:}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00048}00048\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ cout<<endl<<\textcolor{stringliteral}{"{}Cuanto\ dinero\ desea\ retirar?:\ "{}};}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00049}00049\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ cin>>r;}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00050}00050\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}(r>ba)}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00051}00051\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00052}00052\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ cout<<\textcolor{stringliteral}{"{}Error,\ la\ cantidad\ que\ ha\ ingresado\ es\ mayor\ a\ lo\ que\ dispone\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00053}00053\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00054}00054\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00055}00055\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00056}00056\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ba=ba-\/r;}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00057}00057\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ cout<<\textcolor{stringliteral}{"{}\(\backslash\)nSe\ retiraron\ "{}}<<r<<\textcolor{stringliteral}{"{}\ pesos\ de\ su\ saldo,\ dejando\ un\ saldo\ de\ "{}}<<ba<<\textcolor{stringliteral}{"{}\ en\ su\ cuenta.\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00058}00058\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00059}00059\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{break};}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00060}00060\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00061}00061\ \ \ \ \ cout<<endl<<\textcolor{stringliteral}{"{}Desea\ realizar\ algo\ mas?\ SI[1]/NO[2]:\ "{}};}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00062}00062\ \ \ \ \ cin>>d;\ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00063}00063\ \ \ \ \ \}\textcolor{keywordflow}{while}(d==1);}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00064}00064\ \}}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00065}00065\ }
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00070}\mbox{\hyperlink{_factorial_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{00070}}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{_factorial_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}}()}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00071}00071\ \{}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00072}00072\ \ \ \ \ \textcolor{keywordtype}{int}\ c,\ b=20000;}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00073}00073\ \ \ \ \ cout<<\textcolor{stringliteral}{"{}PROGRAMA\ EXAMEN\ UNIDAD\ III"{}}<<endl<<\textcolor{stringliteral}{"{}\(\backslash\)nQue\ funcion\ desea\ realizar?:\ \(\backslash\)nCalculo\ de\ Factorial[1]\(\backslash\)nCajero\ de\ banco[2]\(\backslash\)nSalir[3]\(\backslash\)n\(\backslash\)nIngresa\ el\ numero\ correspondiente\ de\ la\ funcion\ que\ desees:\ "{}};}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00074}00074\ \ \ \ \ cin>>c;}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00075}00075\ \ \ \ \ \textcolor{keywordflow}{switch}(c)}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00076}00076\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00077}00077\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{case}\ 1:}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00078}00078\ \ \ \ \ \ \ \ \ \ \ \ \ system(\textcolor{stringliteral}{"{}cls"{}});}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00079}00079\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{_factorial_8cpp_a0f757aeff74c4ba2fa53b0a07f9f1341}{factorial}}();}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00080}00080\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{break};}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00081}00081\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{case}\ 2:}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00082}00082\ \ \ \ \ \ \ \ \ \ \ \ \ system(\textcolor{stringliteral}{"{}cls"{}});}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00083}00083\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{_factorial_8cpp_a7fefbb4991338e3d6c489618d4a1147e}{banco}}(b);}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00084}00084\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{break};}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00085}00085\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{case}\ 3:}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00086}00086\ \ \ \ \ \ \ \ \ \ \ \ \ system(\textcolor{stringliteral}{"{}cls"{}});}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00087}00087\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{break};}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00088}00088\ \ \ \ \ \}\ \ \ }
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00089}00089\ \ \ \ \ cout<<\textcolor{stringliteral}{"{}\(\backslash\)nNos\ vemos,\ que\ tenga\ buen\ dia"{}};}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00090}00090\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
+\DoxyCodeLine{\Hypertarget{_factorial_8cpp_source_l00091}00091\ \}}
+
+\end{DoxyCode}
